@@ -17,13 +17,13 @@
 
 ## Sobre Mim
 
-Engenheiro de Software Full Stack Senior com **+19 anos de experiencia** em desenvolvimento de sistemas corporativos, especializado em **.NET, Angular e arquitetura de microsservicos**. Atuo na industria de tecnologia com foco em solucoes enterprise, integracoes complexas e lideranca tecnica.
+Engenheiro de Software Full Stack Sênior com **+19 anos de experiência** em desenvolvimento de sistemas corporativos, especializado em **.NET, Angular e arquitetura de microsserviços**. Atuo na indústria de tecnologia com foco em soluções enterprise, integrações complexas e liderança técnica.
 
-- Atualmente **Analista de Engenharia TI Senior .NET Core / AWS DevOps** no [Itau Unibanco](https://www.linkedin.com/company/itau)
-- Anteriormente **Tech Lead / Senior Full Stack Engineer** na [GOL Linhas Aereas](https://www.linkedin.com/company/gol) (2019-2025)
-- Experiencia previa na **Avianca Brasil** como Arquiteto de Software (2014-2019)
-- Pos-graduacao em **Arquitetura de Software de TI** pela Unyleya
-- Formado em **Analise e Desenvolvimento de Sistemas** pelo IBTA
+- Atualmente **Analista de Engenharia TI Sênior .NET Core / AWS DevOps** no [Itaú Unibanco](https://www.linkedin.com/company/itau)
+- Anteriormente **Tech Lead / Senior Full Stack Engineer** na [GOL Linhas Aéreas](https://www.linkedin.com/company/gol) (2019-2025)
+- Experiência prévia na **Avianca Brasil** como Arquiteto de Software (2014-2019)
+- Pós-graduação em **Arquitetura de Software de TI** pela Unyleya
+- Formado em **Análise e Desenvolvimento de Sistemas** pelo IBTA
 
 ---
 
@@ -67,44 +67,44 @@ Engenheiro de Software Full Stack Senior com **+19 anos de experiencia** em dese
 
 ### Bibliotecas & Pacotes NuGet
 
-| Projeto | Descricao | Tecnologia | Links |
+| Projeto | Descrição | Tecnologia | Links |
 |---------|-----------|------------|-------|
 | [**EAF - Enterprise Application Foundation**](https://github.com/afonsoft/EAF) | Framework enterprise baseado no ASP.NET Boilerplate (ABP) com multi-tenancy, Hangfire, OpenTelemetry e Azure Key Vault | .NET 10, Angular 18, EF Core | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/EAF) |
-| [**QRCoder.Core**](https://github.com/afonsoft/QRCoder.Core) | Biblioteca cross-platform para geracao de QR Codes com SkiaSharp, SVG e PNG puro | .NET 10/8, SkiaSharp | [![NuGet](https://img.shields.io/nuget/v/QRCoder.Core?style=flat&logo=nuget)](https://www.nuget.org/packages/QRCoder.Core/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/QRCoder.Core) |
-| [**Metar Decoder**](https://github.com/afonsoft/metar-decoder) | Biblioteca .NET para decodificacao de strings METAR e TAF (aviacao) | .NET 10/8, NUnit | [![NuGet](https://img.shields.io/nuget/v/Metar.Decoder?style=flat&logo=nuget)](https://www.nuget.org/packages/Metar.Decoder/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/metar-decoder) |
-| [**Afonsoft.Amadeus**](https://github.com/afonsoft/Afonsoft.Amadeus) | SDK C# para as APIs Self-Service da Amadeus (voos, hoteis, localizacoes) | C#, REST API | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/Afonsoft.Amadeus) |
+| [**QRCoder.Core**](https://github.com/afonsoft/QRCoder.Core) | Biblioteca cross-platform para geração de QR Codes com SkiaSharp, SVG e PNG puro | .NET 10/8, SkiaSharp | [![NuGet](https://img.shields.io/nuget/v/QRCoder.Core?style=flat&logo=nuget)](https://www.nuget.org/packages/QRCoder.Core/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/QRCoder.Core) |
+| [**Metar Decoder**](https://github.com/afonsoft/metar-decoder) | Biblioteca .NET para decodificação de strings METAR e TAF (aviação) | .NET 10/8, NUnit | [![NuGet](https://img.shields.io/nuget/v/Metar.Decoder?style=flat&logo=nuget)](https://www.nuget.org/packages/Metar.Decoder/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/metar-decoder) |
+| [**Afonsoft.Amadeus**](https://github.com/afonsoft/Afonsoft.Amadeus) | SDK C# para as APIs Self-Service da Amadeus (voos, hotéis, localizações) | C#, REST API | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/Afonsoft.Amadeus) |
 
-### Aplicacoes & Plataformas
+### Aplicações & Plataformas
 
-| Projeto | Descricao | Tecnologia | Stars |
+| Projeto | Descrição | Tecnologia | Stars |
 |---------|-----------|------------|-------|
-| [**VideoChat (FamilyMeet)**](https://github.com/afonsoft/VideoChat) | Plataforma de comunicacao em tempo real com chat em grupo e videoconferencia WebRTC | .NET 10, Angular 21, SignalR, PostgreSQL | ![Stars](https://img.shields.io/github/stars/afonsoft/VideoChat?style=flat) |
+| [**VideoChat (FamilyMeet)**](https://github.com/afonsoft/VideoChat) | Plataforma de comunicação em tempo real com chat em grupo e videoconferência WebRTC | .NET 10, Angular 21, SignalR, PostgreSQL | ![Stars](https://img.shields.io/github/stars/afonsoft/VideoChat?style=flat) |
 | [**Portal-Afonsoft**](https://github.com/afonsoft/Portal-Afonsoft) | Portal web baseado no AspZero e ABP ASP.NET Boilerplate | ASP.NET, ABP Framework | ![Stars](https://img.shields.io/github/stars/afonsoft/Portal-Afonsoft?style=flat) |
 | [**AfonsoftIPTV**](https://github.com/afonsoft/AfonsoftIPTV) | Aplicativo IPTV multiplataforma para iOS e Android | Xamarin, C# | ![Stars](https://img.shields.io/github/stars/afonsoft/AfonsoftIPTV?style=flat) |
 
-### Ferramentas & Utilitarios
+### Ferramentas & Utilitários
 
-| Projeto | Descricao | Tecnologia | Stars |
+| Projeto | Descrição | Tecnologia | Stars |
 |---------|-----------|------------|-------|
 | [**VMwareWithMacOS**](https://github.com/afonsoft/VMwareWithMacOS) | Guia completo para instalar macOS no VMware em Windows | Python, Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/VMwareWithMacOS?style=flat) |
 | [**termux-vsc**](https://github.com/afonsoft/termux-vsc) | Script para instalar o Visual Studio Code no Termux (Android) | Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/termux-vsc?style=flat) |
 
 ---
 
-## Experiencia Profissional
+## Experiência Profissional
 
-| Periodo | Empresa | Cargo | Setor |
+| Período | Empresa | Cargo | Setor |
 |---------|---------|-------|-------|
-| 2025 - Presente | **Itau Unibanco** | Analista de Engenharia TI Senior .NET Core / AWS DevOps | Bancario |
-| 2021 - 2025 | **GOL Linhas Aereas** | Senior Full Stack Software Engineer / Tech Lead | Aviacao |
-| 2019 - 2021 | **Mazzatech** (alocado na GOL) | Senior Full Stack Software Engineer | Aviacao |
-| 2014 - 2019 | **Avianca Brasil** | Senior .NET Engineer / Arquiteto de Software | Aviacao |
-| 2010 - 2014 | **Oceanair** | Full Stack Software Engineer | Aviacao |
-| 2007 - 2010 | **G&P / DEDIC / Bunge** | Junior Software Engineer | Seguros / TI |
+| 2025 - Presente | **Itaú Unibanco** | Analista de Engenharia TI Sênior .NET Core / AWS DevOps | Bancário |
+| 2021 - 2025 | **GOL Linhas Aéreas** | Senior Full Stack Software Engineer / Tech Lead | Aviação |
+| 2019 - 2021 | **Mazzatech** (alocado na GOL) | Senior Full Stack Software Engineer | Aviação |
+| 2014 - 2019 | **Avianca Brasil** | Senior .NET Engineer / Arquiteto de Software | Aviação |
+| 2010 - 2014 | **Oceanair** | Full Stack Software Engineer | Aviação |
+| 2007 - 2010 | **G&P / DEDIC / Bunge** | Junior Software Engineer | TI / Seguros |
 
 ---
 
-## Estatisticas do GitHub
+## Estatísticas do GitHub
 
 <div align="center">
 
@@ -122,7 +122,7 @@ Engenheiro de Software Full Stack Senior com **+19 anos de experiencia** em dese
 
 ### Vamos nos conectar!
 
-Se voce tem interesse em colaborar em projetos open-source, discutir arquitetura de software ou trocar ideias sobre .NET e Angular, fique a vontade para entrar em contato.
+Se você tem interesse em colaborar em projetos open-source, discutir arquitetura de software ou trocar ideias sobre .NET e Angular, fique à vontade para entrar em contato.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afonso-dutra-nogueira-filho)
 [![Email](https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afonsoft@gmail.com)
