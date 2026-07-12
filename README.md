@@ -63,6 +63,125 @@ Engenheiro de Software Full Stack Sênior com **+19 anos de experiência** em de
 
 ---
 
+## Agentes & Inteligência Artificial
+
+<div align="center">
+
+**Agentes & CLIs IA**
+
+![OpenCode](https://img.shields.io/badge/OpenCode-1.17.18-000000?style=for-the-badge)
+![Claude Code](https://img.shields.io/badge/Claude_Code-2.1.206-CF785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![Devin](https://img.shields.io/badge/Devin-AI-000000?style=for-the-badge)
+![Devin Desktop](https://img.shields.io/badge/Devin_Desktop-AI-000000?style=for-the-badge)
+
+**Roteadores & Providers**
+
+![OmniRoute](https://img.shields.io/badge/OmniRoute-3.8.45-00A4FF?style=for-the-badge)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-LLM-593C94?style=for-the-badge)
+
+</div>
+
+---
+
+## Meu Ambiente de IA (VPS)
+
+Automatização pessoal rodando em uma VPS Oracle Cloud (ARM64/Ampere) com Ubuntu 24.04 LTS.
+
+### Hardware & OS
+| Item | Especificação |
+|------|---------------|
+| OS | Ubuntu 24.04 LTS (Linux 6.17.0-1018-oracle, arm64) |
+| CPU | ARM64 (Ampere — Oracle Cloud) |
+| Disk | 193GB total, 148GB usado, 46GB livre |
+| Shell | bash |
+
+### Runtimes & CLIs
+| Runtime | Versão |
+|---------|--------|
+| Node.js | v24.16.0 |
+| npm | 11.13.0 |
+| Python | 3.12.3 |
+| TypeScript | 7.0.2 |
+| FFmpeg | 6.1.1 |
+
+### Docker Containers
+| Container | Imagem | Porta | Descrição |
+|-----------|--------|-------|-----------|
+| n8n | n8nio/n8n:latest | :5678 | Workflow automation |
+| open-webui | ghcr.io/open-webui/open-webui:main | :3002 | Chat UI para Ollama |
+| waha | devlikeapro/waha:arm | :3030 | WhatsApp HTTP API |
+| azure-sql-edge | mcr.microsoft.com/azure-sql-edge:latest | :1433 | SQL Server |
+| open-design | ghcr.io/nexu-io/od:latest | :7456 | Open Design (Next.js) |
+
+### Ollama (LLM Local)
+- Modelos: `qwen2.5:7b` (4.7GB), `llama3.2:3b` (2.0GB)
+- Serviço systemd ativo desde 06/07
+
+### OpenClaw
+- Versão: v2026.6.11
+- Plugins: composio, memory-lancedb-pro, heygen, browser, canvas, firecrawl, google, lobster, file-transfer, ollama, memory-wiki, tavily, webhooks, discord, telegram, whatsapp, slack, nostr, irc, openclaw-better-gateway, copilot-proxy, acpx, agntdata-youtube, rtk-rewrite, migrate-hermes
+- MCP servers: notebooklm-mcp, composio
+- Model providers: google (Gemini), ollama (local)
+- Channels: WhatsApp (ativo), Telegram (bot)
+- 136 skills: 104 workspace, 22 agent, 10 plugin
+
+### Outros CLIs Globais (npm)
+| Package | Versão |
+|---------|--------|
+| @anthropic-ai/claude-code | 2.1.206 |
+| @google/gemini-cli | 0.50.0 |
+| @augmentcode/auggie | 0.32.0 |
+| @agentclientprotocol/claude-agent-acp | 0.55.0 |
+| opencode-ai | 1.17.18 |
+| omniroute | 3.8.45 |
+| obsidian-cli | 0.5.1 |
+| memory-lancedb-pro | 1.1.0-beta.9 |
+| clawhub | 0.18.0 |
+| clawdhub | 0.3.0 |
+| claudito | 0.19.1 |
+
+### Composio
+- CLI v0.2.31
+- Plugin OpenClaw: v0.0.12
+- Conexões: YouTube, Gmail, GitHub, Google Calendar/Drive/Docs/Tasks/Maps/Analytics, Notion
+
+### NotebookLM
+- nlm v0.8.2
+- CLI + MCP server
+- Deep/fast research, podcasts, vídeos, slides, quizzes
+
+### HyperFrames
+- HeyGen v0.7.51
+- HTML/CSS/JS → MP4 pipeline
+- 20 skills, 10 workflows
+
+### Nginx
+- v1.30.2 — Reverse proxy/SSL
+
+### Python Packages
+- fastapi 0.136.3
+- uvicorn 0.48.0
+
+### Memory & Vault
+- `workspace/MEMORY.md` — memória de longo prazo
+- `workspace/memory/` — daily notes
+- `workspace/vault/` — Obsidian vault (Agent-Shared, Agent-OpenClaw, knowledge, projects)
+- `memory-lancedb-pro` — LanceDB vector DB
+
+### Arquitetura
+```
+Internet → Nginx → Docker containers (n8n, open-webui, waha, SQL, open-design)
+                  → OpenClaw (gateway) → Plugins + Skills + MCP servers
+                  → Ollama (LLM local)
+                  → Composio CLI → 1000+ apps externas
+                  → NotebookLM MCP → Google AI
+                  → WhatsApp/Telegram channels
+```
+
+VPS é uma plataforma de automação pessoal completa — agents IA, workflows, vídeo generation, integrações externas, banco de dados e memory persistente.
+
+---
+
 ## Projetos em Destaque
 
 ### Bibliotecas & Pacotes NuGet
