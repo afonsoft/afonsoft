@@ -108,6 +108,7 @@ Engenheiro de Software Full Stack Sênior com **+19 anos de experiência** em de
 | [**QRCoder.Core**](https://github.com/afonsoft/QRCoder.Core) | Biblioteca cross-platform para geração de QR Codes com SkiaSharp, SVG e PNG puro | .NET 10/8, SkiaSharp | [![NuGet](https://img.shields.io/nuget/v/QRCoder.Core?style=flat&logo=nuget)](https://www.nuget.org/packages/QRCoder.Core/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/QRCoder.Core) |
 | [**Metar Decoder**](https://github.com/afonsoft/metar-decoder) | Biblioteca .NET para decodificação de strings METAR e TAF (aviação) | .NET 10/8, NUnit | [![NuGet](https://img.shields.io/nuget/v/Metar.Decoder?style=flat&logo=nuget)](https://www.nuget.org/packages/Metar.Decoder/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/metar-decoder) |
 | [**Afonsoft.Amadeus**](https://github.com/afonsoft/Afonsoft.Amadeus) | SDK C# para as APIs Self-Service da Amadeus (voos, hotéis, localizações) | C#, REST API | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/Afonsoft.Amadeus) |
+| [**EAF Template BFF**](https://github.com/afonsoft/bff) | Template de Back-end for Front-end que normaliza dados de instituições financeiras (Bacen, BCB, Febraban) com Clean Architecture, cache distribuído comprimido e fallback entre provedores | .NET 10, OpenTelemetry, Serilog | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github)](https://github.com/afonsoft/bff) |
 
 ### Aplicações & Plataformas
 
@@ -116,6 +117,17 @@ Engenheiro de Software Full Stack Sênior com **+19 anos de experiência** em de
 | [**VideoChat (FamilyMeet)**](https://github.com/afonsoft/VideoChat) | Plataforma de comunicação em tempo real com chat em grupo e videoconferência WebRTC | .NET 10, Angular 21, SignalR, PostgreSQL | ![Stars](https://img.shields.io/github/stars/afonsoft/VideoChat?style=flat) |
 | [**Portal-Afonsoft**](https://github.com/afonsoft/Portal-Afonsoft) | Portal web baseado no AspZero e ABP ASP.NET Boilerplate | ASP.NET, ABP Framework | ![Stars](https://img.shields.io/github/stars/afonsoft/Portal-Afonsoft?style=flat) |
 | [**AfonsoftIPTV**](https://github.com/afonsoft/AfonsoftIPTV) | Aplicativo IPTV multiplataforma para iOS e Android | Xamarin, C# | ![Stars](https://img.shields.io/github/stars/afonsoft/AfonsoftIPTV?style=flat) |
+| [**GameHub**](https://github.com/afonsoft/gamehub) | Plataforma de distribuição de jogos HTML5/WebGL com catálogo público, player em iframe com gameplay bridge, portal do desenvolvedor e módulo de moderação | .NET 10, Angular, TypeScript | ![Stars](https://img.shields.io/github/stars/afonsoft/gamehub?style=flat) |
+
+### IA, Agentes & Automação
+
+| Projeto | Descrição | Tecnologia | Stars |
+|---------|-----------|------------|-------|
+| [**taskboard-ai**](https://github.com/afonsoft/taskboard-ai) | Taskboard local-first e AI-native: API REST com eventos SSE, CLI `taskctl`, servidor MCP, chat com IA e frontend Blazor | .NET 10, ABP/DDD, SQLite, MCP | ![Stars](https://img.shields.io/github/stars/afonsoft/taskboard-ai?style=flat) |
+| [**skills**](https://github.com/afonsoft/skills) | Coleção de Agent Skills e hooks seguindo a Agent Skills Specification, compatível com Devin, Claude Code, OpenCode, Cursor e Copilot | Shell, Markdown, MCP | ![Stars](https://img.shields.io/github/stars/afonsoft/skills?style=flat) |
+| [**ai-studio-workspace**](https://github.com/afonsoft/ai-studio-workspace) | Dev container de desenvolvimento com IA (Gemini API, OpenHands, MCP) otimizado para C#/.NET, com suporte opcional a GPU NVIDIA | Docker, C#, Gemini API | ![Stars](https://img.shields.io/github/stars/afonsoft/ai-studio-workspace?style=flat) |
+| [**n8n-workflows**](https://github.com/afonsoft/n8n-workflows) | Pipelines de ingestão (Instagram → PostgreSQL/pgvector → embeddings Gemini) para assistentes virtuais com RAG | n8n, PostgreSQL + pgvector | ![Stars](https://img.shields.io/github/stars/afonsoft/n8n-workflows?style=flat) |
+| [**n8n-tools**](https://github.com/afonsoft/n8n-tools) | Ambiente Docker Compose reproduzível para rodar n8n + PostgreSQL localmente | Docker Compose, Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/n8n-tools?style=flat) |
 
 ### Ferramentas & Utilitários
 
@@ -123,6 +135,7 @@ Engenheiro de Software Full Stack Sênior com **+19 anos de experiência** em de
 |---------|-----------|------------|-------|
 | [**VMwareWithMacOS**](https://github.com/afonsoft/VMwareWithMacOS) | Guia completo para instalar macOS no VMware em Windows | Python, Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/VMwareWithMacOS?style=flat) |
 | [**termux-vsc**](https://github.com/afonsoft/termux-vsc) | Script para instalar o Visual Studio Code no Termux (Android) | Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/termux-vsc?style=flat) |
+| [**modded-ubuntu**](https://github.com/afonsoft/modded-ubuntu) | Ubuntu com GUI (XFCE) no Termux, com personalizações de desktop, zsh/Powerlevel10k e atalhos | Shell | ![Stars](https://img.shields.io/github/stars/afonsoft/modded-ubuntu?style=flat) |
 
 ---
 
